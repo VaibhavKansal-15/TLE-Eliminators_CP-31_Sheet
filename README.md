@@ -108,8 +108,9 @@ This project is licensed under the MIT License. Feel free to use and distribute 
 
 If you encounter any issues, feel free to raise an issue or open a pull request. Let's eliminate those TLEs together!
 
-GitHub ID: https://github.com/VaibhavKansal-15
-Email: vaibhavkansal18@gmail.com
+*GitHub ID*: https://github.com/VaibhavKansal-15
+
+*Email*: vaibhavkansal18@gmail.com
 
 Happy Coding!
 
