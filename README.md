@@ -4,6 +4,7 @@ Overview
 
 Welcome to the TLE-Eliminators_CP-31_Sheet repository! This repository contains solutions and problem-solving approaches to competitive programming problems curated for practice. 
 The focus is on solving problems efficiently while ensuring clarity and maintainability in the code.
+*Sheet Link* https://www.tle-eliminators.com/
 
 Purpose
 
@@ -21,21 +22,12 @@ The repository is organized as follows:
 
 TLE-Eliminators_CP-31_Sheet/
 |
-|-- Problem-Solutions/
+|-- 800/
 |   |-- Problem1.java
 |   |-- Problem2.cpp
 |   |-- Problem3.py
 |
 |-- README.md
-|-- Resources/
-|   |-- Tutorials.md
-|   |-- Templates/
-|       |-- SegmentTree.java
-|       |-- FenwickTree.cpp
-|
-|-- TestCases/
-    |-- Problem1.txt
-    |-- Problem2.txt
 
 Key Folders:
 
@@ -78,9 +70,7 @@ Getting Started
 Prerequisites
 
 A working knowledge of programming (preferably in C++, Java, or Python).
-
 A competitive programming platform account (e.g., Codeforces, LeetCode, AtCoder).
-
 Basic understanding of algorithms and data structures.
 
 Steps to Use
@@ -94,7 +84,6 @@ Navigate to the folder:
 cd TLE-Eliminators_CP-31_Sheet
 
 Open the solution files and practice problems.
-
 Use the test cases in the TestCases/ folder to validate your solutions.
 
 Acknowledgments
@@ -105,7 +94,6 @@ Special thanks to all contributors who share their knowledge and solutions here.
 License
 
 This project is licensed under the MIT License. Feel free to use and distribute the content, but do give credit where due!
-
 If you encounter any issues, feel free to raise an issue or open a pull request. Let's eliminate those TLEs together!
 
 *GitHub ID*: https://github.com/VaibhavKansal-15
@@ -113,4 +101,3 @@ If you encounter any issues, feel free to raise an issue or open a pull request.
 *Email*: vaibhavkansal18@gmail.com
 
 Happy Coding!
-
