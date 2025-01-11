@@ -24,8 +24,13 @@ TLE-Eliminators_CP-31_Sheet/
 |
 |-- 800/
 |   |-- Problem1.java
-|   |-- Problem2.cpp
-|   |-- Problem3.py
+|   |-- Problem2.java
+|   |-- Problem3.java
+|
+|-- 900/
+|   |-- Problem1.java
+|   |-- Problem2.java
+|   |-- Problem3.java
 |
 |-- README.md
 
