@@ -9,7 +9,6 @@ public class DontTryToCount {
             int m = sc.nextInt();
             String x = sc.next();
             String s = sc.next();
-
             int count = 0;
             while (count < 8) {
                 if (x.contains(s)) {
