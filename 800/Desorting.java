@@ -10,7 +10,6 @@ public class Desorting {
             for(int i=0;i<n;i++){
                 arr[i]=sc.nextInt();
             } 
-
             boolean bool=false;
             int mindiff=Integer.MAX_VALUE;
             for(int i=0;i<n-1;i++){
@@ -25,7 +24,6 @@ public class Desorting {
             }else{
                 mindiff=(mindiff+1)/2;
             }
-
             if(bool){
                 System.out.println(0);
             }else{
