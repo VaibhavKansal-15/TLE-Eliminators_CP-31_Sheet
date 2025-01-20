@@ -10,7 +10,7 @@ public class LongestDivisorsInterval {
       while(n%k==0){
         k++;
       }
-      System.out.println(k);
+      System.out.println(k-1);
     }
     sc.close();
   }  
