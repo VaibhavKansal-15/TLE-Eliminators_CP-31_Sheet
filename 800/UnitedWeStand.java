@@ -16,14 +16,12 @@ public class UnitedWeStand {
                     break;
                 }
             }
-
             if(allSame){
                 System.out.println(-1);
             }else{
                 Arrays.sort(arr);
                 List<Integer> b=new ArrayList<>();
                 List<Integer> c=new ArrayList<>();
-
                 b.add(arr[0]);
                 for(int i=1;i<n;i++){
                     if(arr[i]==arr[0]){
@@ -32,7 +30,6 @@ public class UnitedWeStand {
                         c.add(arr[i]);
                     }
                 }
-
                 System.out.println(b.size()+" "+c.size());
                 for(int num:b){
                     System.out.print(num+" ");
