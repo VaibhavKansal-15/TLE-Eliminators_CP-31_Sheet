@@ -6,7 +6,6 @@ public class ComparisonString {
     while(t-->0){
       int n=sc.nextInt();
       String s=sc.next();
-
       int ans=1;
       int count=1;
       for(int i=1;i<n;i++){
