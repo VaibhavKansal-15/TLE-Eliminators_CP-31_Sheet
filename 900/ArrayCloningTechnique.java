@@ -8,16 +8,13 @@ public class ArrayCloningTechnique{
       int[] arr=new int[n];
       Map<Integer,Integer> map=new HashMap<>();
       int maxFreq=0;
-
       for(int i=0;i<n;i++){
         arr[i]=sc.nextInt();
         map.put(arr[i],map.getOrDefault(arr[i],0)+1);
         maxFreq=Math.max(maxFreq,map.get(arr[i]));
       }
-
       int count=0;
       int copies=maxFreq;
-
       while(copies<n){
         int add=Math.min(copies,n-copies);
         count+=1+add;
