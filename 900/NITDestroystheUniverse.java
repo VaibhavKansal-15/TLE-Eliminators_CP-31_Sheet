@@ -9,7 +9,6 @@ public class NITDestroystheUniverse{
       for(int i=0;i<n;i++){
         arr[i]=sc.nextInt();
       }
-
       int groups=0;
       boolean inGroup=false;
       for(int i=0;i<n;i++){
@@ -22,7 +21,6 @@ public class NITDestroystheUniverse{
           inGroup=false;
         }
       }
-
       if(groups==0){
         System.out.println(0);
       }else if(groups==1){
