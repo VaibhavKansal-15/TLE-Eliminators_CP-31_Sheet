@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class OddDivisor {
   public static void main(String[] args) {
     Scanner sc=new Scanner(System.in);
@@ -14,7 +13,6 @@ public class OddDivisor {
     }
     sc.close();
   }
-
   private static boolean isPower(long n){
     return (n & (n-1))==0;
   }
