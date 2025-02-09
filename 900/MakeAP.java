@@ -1,13 +1,10 @@
 import java.util.Scanner;
-
 public class Main {
-    
     public static boolean canMakeAp(int a, int b, int c) {
         // Check if already AP
         if (2 * b == a + c) {
             return true;
         }
-        
         // Check multiplying a by m
         if ((2 * b - c) % a == 0) {
             int m = (2 * b - c) / a;
@@ -15,7 +12,6 @@ public class Main {
                 return true;
             }
         }
-        
         // Check multiplying b by m
         if ((a + c) % (2 * b) == 0) {
             int m = (a + c) / (2 * b);
@@ -23,7 +19,6 @@ public class Main {
                 return true;
             }
         }
-        
         // Check multiplying c by m
         if ((2 * b - a) % c == 0) {
             int m = (2 * b - a) / c;
@@ -31,10 +26,8 @@ public class Main {
                 return true;
             }
         }
-        
         return false;
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
