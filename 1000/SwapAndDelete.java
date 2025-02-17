@@ -7,12 +7,10 @@ public class SwapAndDelete {
         while (t-- > 0) {
             String str = sc.next();
             int zero = 0, one = 0;
-            
             for (char c : str.toCharArray()) {
                 if (c == '0') zero++;
                 else one++;
             }
-
             for (char c : str.toCharArray()) {
                 if (c == '0') {
                     if (one > 0) one--;
@@ -22,7 +20,6 @@ public class SwapAndDelete {
                     else break;
                 }
             }
-
             System.out.println(zero + one);
         }
         sc.close();
