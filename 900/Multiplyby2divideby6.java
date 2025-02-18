@@ -7,17 +7,14 @@ public class Multiplyby2divideby6 {
         while (t-- > 0) {
             long n = sc.nextLong();
             int count2 = 0, count3 = 0;
-
             while (n % 2 == 0) {
                 n /= 2;
                 count2++;
             }
-
             while (n % 3 == 0) {
                 n /= 3;
                 count3++;
             }
-
             if (n != 1 || count2 > count3) {
                 System.out.println(-1);
             } else {
