@@ -4,17 +4,14 @@ public class Raspberries {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
-
         while (t-- > 0) {
             int n = sc.nextInt();
             int k = sc.nextInt();
             int md = 0, even = 0;
             boolean div = false;
-
             for (int i = 0; i < n; i++) {
                 int x = sc.nextInt();
                 x %= k;
-
                 if (x > 0) {
                     md = Math.max(md, x);
                 } else {
@@ -24,7 +21,6 @@ public class Raspberries {
                     even++;
                 }
             }
-
             if (div) {
                 System.out.println(0);
             } else if (k == 4) {
@@ -39,7 +35,6 @@ public class Raspberries {
                 System.out.println(k - md);
             }
         }
-
         sc.close();
     }
 }
