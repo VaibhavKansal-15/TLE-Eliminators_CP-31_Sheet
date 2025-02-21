@@ -1,6 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+
 public class Chemistry {
     public static boolean isOdd(int n) {
         return n % 2 != 0;
