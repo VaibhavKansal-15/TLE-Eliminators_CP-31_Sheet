@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class DeletiveEditing {
     private static void answer(boolean v) {
         System.out.println(v ? "YES" : "NO");
