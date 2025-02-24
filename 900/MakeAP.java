@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Main {
     public static boolean canMakeAp(int a, int b, int c) {
         // Check if already AP
