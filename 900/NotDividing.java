@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class NotDividing {
     public static void processTestCase(Scanner sc) {
         int n = sc.nextInt();
