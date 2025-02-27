@@ -1,5 +1,6 @@
 import java.util.*;
 import java.io.*;
+
 public class SumofMedians {
     public static void main(String[] args) throws IOException {
         FastReader sc = new FastReader();
