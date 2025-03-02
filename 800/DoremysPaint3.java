@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class DoremysPaint3 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -24,7 +25,6 @@ public class DoremysPaint3 {
                         count2=value;
                     }
                 }
-
                 if(Math.abs(count1-count2)<=1){
                     System.out.println("YES");
                 }else{
