@@ -8,7 +8,6 @@ public class Prepend_and_Append {
             int n=sc.nextInt();
             String s=sc.next();
             int left=0,right=n-1;
-
             while(left<right && s.charAt(left)!=s.charAt(right)){
                 left++;
                 right--;
