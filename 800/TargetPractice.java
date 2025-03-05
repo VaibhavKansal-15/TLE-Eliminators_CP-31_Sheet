@@ -3,7 +3,6 @@ import java.io.*;
 public class TargetPractice {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
         int[][] arr = {
             {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
             {1, 2, 2, 2, 2, 2, 2, 2, 2, 1},
@@ -16,12 +15,9 @@ public class TargetPractice {
             {1, 2, 2, 2, 2, 2, 2, 2, 2, 1},
             {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}
         };
-
         int t = Integer.parseInt(br.readLine().trim());
-
         for (int tcase = 1; tcase <= t; tcase++) {
             int answer = 0;
-
             for (int i = 0; i < 10; i++) {
                 String str = br.readLine();
                 for (int j = 0; j < 10; j++) {
@@ -30,7 +26,6 @@ public class TargetPractice {
                     }
                 }
             }
-
             System.out.println(answer);
         }
     }
