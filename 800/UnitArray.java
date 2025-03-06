@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class UnitArray {
     public static boolean isOdd(int n){
         return n%2!=0;
@@ -14,7 +15,6 @@ public class UnitArray {
                 arr[i]=sc.nextInt();
                 count+=arr[i];
             }
-
             int f1=0,f2=0;
             for(int i=0;i<n;i++){
                 if(arr[i]==-1){
@@ -22,8 +22,7 @@ public class UnitArray {
                 }else{
                     f2++;
                 }
-            }
-             
+            }   
             if(f1<=f2){
                 if(isOdd(f1)){
                     System.out.println(1);
