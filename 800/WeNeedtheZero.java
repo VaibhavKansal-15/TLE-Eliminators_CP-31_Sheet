@@ -11,20 +11,17 @@ public class WeNeedtheZero {
                 arr[i]=sc.nextInt();
             }
             boolean flag = false;
-            
             for (int i = 0; i < (1 << 8); i++) {
                 int ans = 0;
                 for (int j = 0; j < n; j++) {
                     ans ^= arr[j] ^ i;
                 }
-                
                 if (ans == 0) {
                     System.out.println(i);
                     flag = true;
                     break;
                 }
             }
-            
             if (!flag) {
                 System.out.println(-1);
             }
