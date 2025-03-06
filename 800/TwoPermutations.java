@@ -8,7 +8,6 @@ public class TwoPermutations {
             int n=sc.nextInt();
             int a=sc.nextInt();
             int b=sc.nextInt();
-            
             if (n == a && a == b) {
                 System.out.println("Yes");
             } else {
